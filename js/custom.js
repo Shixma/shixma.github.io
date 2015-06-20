@@ -1,6 +1,6 @@
 //Get propper height for main
-var windowHeight = $(window).height();
-$(".content").css('margin-top', windowHeight);
+//var windowHeight = $(window).height();
+//$(".content").css('margin-top', windowHeight);
 
 //scrolling pagination
 $('body').scrollspy({ target: '.navbar' }) //scrollspy
