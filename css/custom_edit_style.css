@@ -1419,11 +1419,11 @@ a.stream-live:hover {
 }
 
 .content-wrap-custom1 {
-    z-index: 9999999999;
+    z-index: 999;
 }
 
 .main-welcome {
-    z-index: 9999999999;
+    /*z-index: 9999999999;*/
     margin-top: 10%;
     position: absolute;
     width: 300px;
