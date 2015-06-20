@@ -1174,11 +1174,11 @@ html, body{
 }
 
 .content {
-    /*position: absolute;*/
+    position: absolute;
     background: white;
     height: 1000px;
     width: 100%;
-    z-index: 9999999999999999999999999;
+    z-index: 999999999999999999999999;
 }
 /* Fixed Bottom */
 .sponsors {
@@ -1430,4 +1430,9 @@ a.stream-live:hover {
     width: 300px;
     left: 50%;
     margin-left: -150px; /* Half of the width */
+}
+
+::-webkit-scrollbar-thumb {
+    z-index: 99999999999999999999999999999999999999;
+    position: absolute;
 }
