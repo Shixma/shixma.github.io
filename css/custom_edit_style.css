@@ -1436,3 +1436,7 @@ a.stream-live:hover {
     z-index: 99999999999999999999999999999999999999;
     position: absolute;
 }
+
+.content-home {
+    height: 100%;
+}
