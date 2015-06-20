@@ -15,7 +15,7 @@ transition: 0.5s;
 }
 .navbar-default {
     z-index: 99999999999999999999999999999999999999999999999999999999999999999;
-    position: absolute;
+    position: fixed;
 }
 .navbar-brand {
 padding: 0px !important;
