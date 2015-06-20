@@ -40,15 +40,17 @@
 </head>
 <body>
     <script type='text/javascript' src="/libs/smoothwheel.js"></script>
-<!--Main Content-->
-<div class="content-wrap-custom1">
+    <div id="particles-js" style="position: fixed;">
         <div class="col-centered text-center">
             <div class="main-welcome"  style="position: fixed;">
                 <img src="http://i.imgur.com/YZsNHbX.jpg" alt="Akame Image" class="img-circle"><br />
                 <h1>Ryan Hughes</h1>
             </div>
         </div>
-    <div class="content" style="z-index: 99999999999999999999999;">
+</div>
+<!--Main Content-->
+<div class="content-wrap-custom1">
+    <div class="content">
             <!-- Fixed navbar -->
 		<nav class="navbar navbar-default navbar-fixed-top normal" role="navigation">
 		  <div class="container">
@@ -91,8 +93,6 @@
         </div>
     </div>
 </div>
-            <!-- particle BG -->
-<div id="particles-js" style="position: fixed;"></div>
 <!--End Main-->
 		<script>
 			$(window).scroll(function() {
