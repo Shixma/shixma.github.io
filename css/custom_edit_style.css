@@ -1174,7 +1174,7 @@ html, body{
 }
 
 .content {
-    position: absolute;
+    /*position: absolute;*/
     background: white;
     height: 1000px;
     width: 100%;
@@ -1419,7 +1419,7 @@ a.stream-live:hover {
 }
 
 .content-wrap-custom1 {
-    z-index: 9999;
+    
 }
 
 .main-welcome {

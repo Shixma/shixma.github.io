@@ -30,8 +30,8 @@ $("a[href$='donate']").click(function() {
 //nicescroll options
 $(document).ready(function() { 
     $("html").niceScroll({
-        zindex: 99999999999999999999999999999999999999999999999999999999999999999999999,
-        touchbehavior: false, //Scroll by dragging main content
+        zindex: 99999999999999999,
+        touchbehavior: true, //Scroll by dragging main content
         scrollspeed: 60,
         cursorborderradius: "0",
         cursorborder: "0px solid #fff"
