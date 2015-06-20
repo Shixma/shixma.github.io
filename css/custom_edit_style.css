@@ -14,8 +14,7 @@ padding-top: 12px;
 transition: 0.5s;
 }
 .navbar-default {
-    z-index: 99999999999999999999999999999999999999999999999999999999999999999;
-    position: fixed;
+    z-index: 999999999999999999999999999999999999999;
 }
 .navbar-brand {
 padding: 0px !important;
@@ -1411,7 +1410,7 @@ a.stream-live:hover {
   width: 100%;
   height: 100%;
   background-image: url('');
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   z-index: 0;
   background-size: cover;
