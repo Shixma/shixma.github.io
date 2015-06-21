@@ -18,7 +18,67 @@ slideDown
 ==============================================
 */
 
+/*
+==============================================
+fadeIn
+==============================================
+*/
 
+.fadeInClean {
+	animation-name: fadeInClean;
+	-webkit-animation-name: fadeInClean;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeInClean {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(0.5);	
+        opacity: 0.5
+	}
+	80% {
+		transform: scale(0.8);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeInClean {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(0.5);
+        opacity: 0.5
+	}
+	80% {
+		-webkit-transform: scale(0.8);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+/*
+==============================================
+slideDown
+==============================================
+*/
 .slideDown{
 	animation-name: slideDown;
 	-webkit-animation-name: slideDown;	
