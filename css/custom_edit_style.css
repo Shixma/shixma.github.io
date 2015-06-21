@@ -1456,7 +1456,7 @@ a.stream-live:hover {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    color: white;
+    color: #1f1f1f;
     bottom: 0;
     font-size: 35pt;
     margin-bottom: 10px;
@@ -1470,19 +1470,19 @@ a.stream-live:hover {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    color: white;
+    color: #1f1f1f;
     bottom: 0;
     font-size: 30pt;
     display: block;
 }
 
 .down-ind-character:hover {
-    text-shadow: 0 0 5px white;
-    color: white;
+    text-shadow: 0 0 5px #424242;
+    color: #424242;
     text-decoration: none;
 }
 
 .down-ind-character:focus {
-    text-shadow: 0 0 0px white;
-    color: white;
+    text-shadow: 0 0 0px #1f1f1f;
+    color: #1f1f1f;
 }
