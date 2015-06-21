@@ -14,6 +14,49 @@ justin@justinaguilar.com
 
 /*
 ==============================================
+fadeIn-page
+==============================================
+*/
+
+.fadeIn-page{
+	animation-name: fadeIn-page;
+	-webkit-animation-name: fadeIn-page;	
+
+	animation-duration: .2s;	
+	-webkit-animation-duration: .2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+    
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999;
+    position: absolute;
+}
+
+@keyframes fadeIn-page {
+	0% {
+		opacity: 1;		
+	}
+	100% {	
+        opacity: 0;
+	}	
+}
+
+@-webkit-keyframes fadeIn-page {
+	0% {
+		opacity: 1;		
+	}
+	100% {
+        opacity: 0;
+	}		
+}
+
+/*
+==============================================
 fadeInClean
 ==============================================
 */
