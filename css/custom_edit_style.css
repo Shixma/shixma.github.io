@@ -14,7 +14,7 @@ padding-top: 12px;
 transition: 0.5s;
 }
 .navbar-default {
-    z-index: 99999999999999999999999999999999999999999999;
+    z-index: 999999999999999999999999999;
 }
 .navbar-brand {
 padding: 0px !important;
@@ -1424,7 +1424,7 @@ a.stream-live:hover {
 }
 
 .main-welcome {
-    z-index: 99999999999999999;
+    z-index: 9999999999999;
     margin-top: 10%;
     position: absolute;
     width: 300px;
@@ -1433,7 +1433,7 @@ a.stream-live:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    z-index: 99999999999999999999999999999999999999;
+    z-index: 99999999999999999999;
     position: absolute;
 }
 
@@ -1442,9 +1442,9 @@ a.stream-live:hover {
 }
 
 .modal-backdrop {
-      z-index: 99999999999999999999999999999999999999999999999999;
+      z-index: 999999999999999999999999999999;
 }
 
 .modal{
-      z-index: 99999999999999999999999999999999999999999999999999999;
+      z-index: 9999999999999999999999999999999999;
 }
