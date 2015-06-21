@@ -50,6 +50,23 @@
         </div>
     </div>
 </div>
+    <div id='rusac' class='modal fade' role='dialog'>
+        <div class='modal-dialog'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                    <h4 class='modal-title'>CONGRATS, YOU FOUND THE SECRET</h4>
+                </div>
+                <div class='modal-body'>
+                    <div id="video_modal">
+                    </div>
+                </div>
+                <div class='modal-footer'>
+                    <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 <!--Main Content-->
 <div class="content-wrap-custom1">
     <div class="content">
@@ -112,10 +129,39 @@
                 kkeys.push( e.keyCode );
                 if ( kkeys.toString().indexOf( konami ) >= 0 ) {
                     // run code here    
-                    $("body").hide().html("<div id='myModal' class='modal fade' role='dialog'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h4 class='modal-title'>Modal Header</h4></div><div class='modal-body'><p>Some text in the modal.</p></div><div class='modal-footer'><button type='button' class='btn btn-default' data-dismiss='modal'>Close</button></div></div></div></div>");
-                    $('#myModal').modal('show');
+                    $('#rusac').modal('show');
                 }
         }, true);
+}
+    
+    jQuery( document ).ready(function() {
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+    jQuery("#video_modal").on('shown.bs.modal', function() {
+        if(typeof player.playVideo == 'function') {
+            player.playVideo();
+        } else {
+            var fn = function(){
+                player.playVideo();
+            };
+            setTimeout(fn, 200);
+        }
+    });
+    jQuery("#video_modal").on('hidden.bs.modal', function() {
+        player.stopVideo();
+    });
+});
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        videoId: 'pVw3Von0wto',
+    });
 }
 </script>
 <!-- scripts -->
