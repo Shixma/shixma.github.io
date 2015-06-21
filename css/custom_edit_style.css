@@ -1451,8 +1451,10 @@ a.stream-live:hover {
 }
 
 .scrolldown-ind {
-    left: 50%;
-    margin-left: -23.33595px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     color: white;
     bottom: 0;
@@ -1463,8 +1465,10 @@ a.stream-live:hover {
 }
 
 .down-ind-character {
-    left: 50%;
-    margin-left: -23.33595px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     color: white;
     bottom: 0;
