@@ -28,7 +28,7 @@ fadeIn-page
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
 
-	visibility: visible;	
+	visibility: visible !important;	
     
     background-color: #2e2e2e;
     width: 100%;
@@ -39,21 +39,19 @@ fadeIn-page
 
 @keyframes fadeIn-page {
 	0% {
-		opacity: 1;		
+		opacity: 0;		
 	}
 	100% {	
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
 	}	
 }
 
 @-webkit-keyframes fadeIn-page {
 	0% {
-		opacity: 1;		
+		opacity: 0;		
 	}
 	100% {
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
 	}		
 }
 
