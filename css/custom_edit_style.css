@@ -1449,3 +1449,11 @@ a.stream-live:hover {
     /*z-index: 9999999999999999999999999999999999;*/
     margin-top: 10%;
 }
+
+.scrolldown-ind {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
