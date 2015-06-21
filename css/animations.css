@@ -42,34 +42,50 @@ fadeIn
 		transform: scale(0);
 		opacity: 0.0;		
 	}
-    60% {
-		-webkit-transform: scale(0.4);
+    20% {
+		transform: scale(0.2);
+        opacity: 0.2
+	}
+	40% {
+		transform: scale(0.4);	
         opacity: 0.4
 	}
-	80% {
-		transform: scale(0.7);	
-        opacity: 0.7
+    60% {
+		transform: scale(0.6);	
+        opacity: 0.6
 	}
-	100% {
+	80% {
+		transform: scale(0.8);
+		opacity: 0.8;	
+	}	
+    100% {
 		transform: scale(1);
 		opacity: 1;	
-	}		
+	}	
 }
 
 @-webkit-keyframes fadeInClean {
-	0% {
+    0% {
 		-webkit-transform: scale(0);
 		opacity: 0.0;		
 	}
-    60% {
-		-webkit-transform: scale(0.4);
+    20% {
+		-webkit-transform: scale(0.2);
+        opacity: 0.2
+	}
+	40% {
+		-webkit-transform: scale(0.4);	
         opacity: 0.4
 	}
-	80% {
-		-webkit-transform: scale(0.7);
-        opacity: 0.7
+    60% {
+		-webkit-transform: scale(0.6);	
+        opacity: 0.6
 	}
-	100% {
+	80% {
+		-webkit-transform: scale(0.8);
+		opacity: 0.8;	
+	}	
+    100% {
 		-webkit-transform: scale(1);
 		opacity: 1;	
 	}	
