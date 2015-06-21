@@ -1178,7 +1178,7 @@ html, body{
     background: white;
     height: 1000px;
     width: 100%;
-    z-index: 99999999;
+    z-index: 99999;
 }
 /* Fixed Bottom */
 .sponsors {
@@ -1442,15 +1442,15 @@ a.stream-live:hover {
 }
 /* Modal Changes */
 .modal-backdrop {
-    z-index: 999999999999999999999999999999;
+    z-index: 999999;
 }
 
 .modal-dialog   {
-    z-index: 9999999999999999999999999999999999;
+    z-index: 999999999999;
     /*margin-top: 10%;*/
 }
 .modal  {
-    z-index: 99999999999999999999999999999999;
+    z-index: 999999999999;
 }
 
 .scrolldown-ind {
