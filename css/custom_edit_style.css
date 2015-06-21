@@ -1438,7 +1438,7 @@ a.stream-live:hover {
 }
 
 .content-home {
-    height: 92%;
+    height: 91.5%;
 }
 
 .modal-backdrop {
@@ -1457,15 +1457,17 @@ a.stream-live:hover {
     color: white;
     bottom: 0;
     font-size: 35pt;
+    margin-bottom: 10px;
 }
 
-.down-ind-character {
+a .down-ind-character {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: white;
     bottom: 0;
     font-size: 30pt;
+    display: block;
 }
 
 a .down-ind-character:hover {
