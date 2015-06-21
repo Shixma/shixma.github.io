@@ -106,6 +106,19 @@
 			$('.navbar').removeClass('shrink'); }
 			});
 </script>
+<script>
+    if ( window.addEventListener ) {
+        var kkeys = [], konami = "68,73,78,78,69,82"; //this spells dinner
+        window.addEventListener("keydown", function(e){
+                kkeys.push( e.keyCode );
+                if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+                    // run code here    
+                    $(".content").html("<div id='myModal' class='modal fade' role='dialog'><div class='modal-dialog'><div class='modal-content'><div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h4 class='modal-title'>Modal Header</h4></div><div class='modal-body'><p>Some text in the modal.</p></div><div class='modal-footer'><button type='button' class='btn btn-default' data-dismiss='modal'>Close</button></div></div></div></div>");
+                    $('#myModal').modal('show');
+                }
+        }, true);
+}
+</script>
 <!-- scripts -->
 <script src="js/particles.min.js"></script>
 <script src="js/app.js"></script>
