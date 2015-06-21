@@ -27,6 +27,18 @@ $("a[href$='donate']").click(function() {
     $('html,body').animate({scrollTop: $(".content-donate").offset().top},'slow');
 });
 
+//love akame
+    if ( window.addEventListener ) {
+        var kkeys = [], racfar = "76,79,86,69,32,65,75,65,77,69";
+        window.addEventListener("keydown", function(e){
+                kkeys.push( e.keyCode );
+                if ( kkeys.toString().indexOf(racfar) >= 0 ) {
+                    // run code here    
+                    $('#rusac').modal('show');
+                }
+        }, true);
+}
+
 //nicescroll options
 $(document).ready(function() { 
     $("html").niceScroll({
