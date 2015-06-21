@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Shixma | Home</title>
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="ROBOTS" content="INDEX, FOLLOW">
+            <meta name="title" content="Shixma">
+            <meta name="description" content="The personal website of Ryan, check information about Ryan, his story and how he became to be a web designer, you can even hire him here... Learn more!">
+            <meta name="keywords" content="web, website, design, designer, dev, developer, ryan, steam, shixma, shix, html, css, personal, razor, sharp, gaming, front, end, anime">
+            <meta name="author" content="Ryan (Shixma)">
+            <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+            <meta charset="UTF-8">
+            <meta property="og:title" content="Shixma" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="http://shixma.github.io" />
+            <meta property="og:image" content="http://i.gyazo.com/12d30543bd46225764754144ed453c62.png" />
+            <meta property="og:locale" content="en_GB" />
+            <meta property="og:site_name" content="Shixma" />
+            <meta property="og:description" content="The personal website of Ryan, check information about Ryan, his story and how he became to be a web designer, you can even hire him here... Learn more!" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom_edit_style.css" rel="stylesheet">
+        <link href="css/animations.css" rel="stylesheet">
+        <script src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"></link>
+        <link rel="shortcut icon" href="/favicon.ico">
+        <script type="text/javascript" src="js/smoothwheel.js"></script>
+        <script src="js/jquery.nicescroll.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <script type='text/javascript' src="/libs/smoothwheel.js"></script>
+<div id="home" class="content-home">
+    <div id="particles-js" style="position: fixed;" class="fadeInClean">
+        <div class="col-centered text-center" id="home">
+            <div class="main-welcome"  style="position: fixed;">
+                <img src="http://i.imgur.com/YZsNHbX.jpg" alt="Akame Image" class="img-circle"><br />
+                <h1>Ryan Hughes</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Main Content-->
+<div class="content-wrap-custom1">
+    <div class="content">
+            <!-- Fixed navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top normal" role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#"><img src="img/logo/boxbox-logo.png" /></a>
+			</div>
+			<div class="navbar-collapse collapse">
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+                <li><a href="#points">Chat Points</a></li>
+                <li><a href="#sub">Subscribe</a></li>
+				<li><a href="#youtube">Youtube</a></li>
+                <li><a href="#donate">Donate</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+        <div style="height: 600px; background-color: blue;" class="content-about" id="about">
+            <h1 style="text-align: center; margin-top: 0px;vertical-align:middle;">PLACEHOLDER</h1>
+        </div>
+        <div style="height: 600px; background-color: orange;" class="content-points" id="points">
+            <h1 style="text-align: center;margin-top: 0px;vertical-align:middle;">PLACEHOLDER</h1>
+        </div>
+        <div style="height: 600px; background-color: red;" class="content-sub" id="sub">
+            <h1 style="text-align: center;margin-top: 0px;vertical-align:middle;">PLACEHOLDER</h1>
+        </div>
+        <div style="height: 600px; background-color: green;" class="content-youtube" id="youtube">
+            <h1 style="text-align: center;margin-top: 0px;vertical-align:middle;">PLACEHOLDER</h1>
+        </div>
+        <div style="height: 600px; background-color: yellow;" class="content-donate" id="donate">
+            <h1 style="text-align: center;margin-top: 0px;vertical-align:middle;">PLACEHOLDER</h1>
+        </div>
+    </div>
+</div>
+<!--End Main-->
+
+    <div id='rusac' class='modal fade' role='dialog'>
+        <div class='modal-dialog'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                    <h4 class='modal-title'>CONGRATS, YOU FOUND THE SECRET</h4>
+                </div>
+                <div class='modal-body'>
+                    <div id="video_modal">
+                    </div>
+                </div>
+                <div class='modal-footer'>
+                    <button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+		<script>
+			$(window).scroll(function() {
+			if ($(document).scrollTop() > 150) {
+			$('.navbar').addClass('shrink');
+			}
+			else {
+			$('.navbar').removeClass('shrink'); }
+			});
+</script>
+<script>
+    if ( window.addEventListener ) {
+        var kkeys = [], konami = "68,73,78,78,69,82"; //this spells dinner
+        window.addEventListener("keydown", function(e){
+                kkeys.push( e.keyCode );
+                if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+                    // run code here    
+                    $('#rusac').modal('show');
+                }
+        }, true);
+}
+    
+    jQuery( document ).ready(function() {
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+    jQuery("#video_modal").on('shown.bs.modal', function() {
+        if(typeof player.playVideo == 'function') {
+            player.playVideo();
+        } else {
+            var fn = function(){
+                player.playVideo();
+            };
+            setTimeout(fn, 200);
+        }
+    });
+    jQuery("#video_modal").on('hidden.bs.modal', function() {
+        player.stopVideo();
+    });
+});
+
+var player;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        videoId: 'pVw3Von0wto',
+    });
+}
+    
+    
+    $('.modal').appendTo($('body'));
+</script>
+<!-- scripts -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script> <!--Calling scripts again as fall back if other don't load-->
+	<script src="js/bootstrap.js"></script> <!--Calling scripts again as fall back if other don't load-->
+    <script type="text/javascript" src="js/custom.js"></script> <!--Calling scripts again as fall back if other don't load-->
+    <script type="text/javascript" src="js/smoothwheel.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+</body>
+</html>
