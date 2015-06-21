@@ -1178,7 +1178,7 @@ html, body{
     background: white;
     height: 1000px;
     width: 100%;
-    z-index: 999999999999999999999999;
+    z-index: 99999999;
 }
 /* Fixed Bottom */
 .sponsors {
