@@ -1458,6 +1458,7 @@ a.stream-live:hover {
     bottom: 0;
     font-size: 35pt;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .down-ind-character {
@@ -1473,7 +1474,7 @@ a.stream-live:hover {
 .down-ind-character:hover {
     text-shadow: 0 0 5px white;
     color: white;
-    texr-decoration: none;
+    text-decoration: none;
 }
 
 .down-ind-character:focus {
