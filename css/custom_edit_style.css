@@ -1443,12 +1443,11 @@ a.stream-live:hover {
 }
 
 .modal-backdrop {
-    /*z-index: 999999999999999999999999999999;
-    position: absolute;*/
+    z-index: 999999999999999999999999999999;
+    position: absolute;
 }
 
-.modal{
-      /*z-index: 9999999999999999999999999999999999;
-      position: fixed;*/
+.modal-dialog{
+    z-index: 9999999999999999999999999999999999;
     margin-top: 100px;
 }
