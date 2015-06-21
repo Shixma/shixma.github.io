@@ -51,6 +51,8 @@ ZoomIn
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+  animation-duration: 1s;	
+  -webkit-animation-duration: 1s;
 }
 /*
 ==============================================
