@@ -43,6 +43,7 @@ $("a[href$='donate']").click(function() {
                 if ( kkeys.toString().indexOf(racfar) >= 0 ) {
                     // run code here    
                     $('#rusac').modal('show');
+                    kkeys = [];
                 }
         }, true);
 }
