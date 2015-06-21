@@ -1448,5 +1448,5 @@ a.stream-live:hover {
 
 .modal{
       z-index: 9999999999999999999999999999999999;
-    position: absolute;
+      position: relative;
 }
