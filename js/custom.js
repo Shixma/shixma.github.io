@@ -1,3 +1,11 @@
+//Prevent page scrolling when spacebar is pressed
+$(document).keydown(function (e) {
+    var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+    if ((key == 32) && (e.target.className != null) && (e.target.className.indexOf("ui-button") != -1))
+       e.preventDefault();
+ });
+
+
 //Get propper height for main
 //var windowHeight = $(window).height();
 //$(".content").css('margin-top', windowHeight);
