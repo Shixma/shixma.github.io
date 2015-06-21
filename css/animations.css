@@ -20,75 +20,37 @@ slideDown
 
 /*
 ==============================================
-fadeIn
+ZoomIn
 ==============================================
 */
 
-.fadeInClean {
-	animation-name: fadeInClean;
-	-webkit-animation-name: fadeInClean;	
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
 
-	animation-duration: 1.1s;	
-	-webkit-animation-duration: 1.1s;
-
-	animation-timing-function: ease-in-out;	
-	-webkit-animation-timing-function: ease-in-out;		
-
-	visibility: visible !important;	
+  50% {
+    opacity: 1;
+  }
 }
 
-@keyframes fadeInClean {
-	0% {
-		transform: scale(0);
-		opacity: 0.0;		
-	}
-    20% {
-		transform: scale(0.2);
-        opacity: 0.2
-	}
-	40% {
-		transform: scale(0.4);	
-        opacity: 0.4
-	}
-    60% {
-		transform: scale(0.6);	
-        opacity: 0.6
-	}
-	80% {
-		transform: scale(0.8);
-		opacity: 0.8;	
-	}	
-    100% {
-		transform: scale(1);
-		opacity: 1;	
-	}	
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
 
-@-webkit-keyframes fadeInClean {
-    0% {
-		-webkit-transform: scale(0);
-		opacity: 0.0;		
-	}
-    20% {
-		-webkit-transform: scale(0.2);
-        opacity: 0.2
-	}
-	40% {
-		-webkit-transform: scale(0.4);	
-        opacity: 0.4
-	}
-    60% {
-		-webkit-transform: scale(0.6);	
-        opacity: 0.6
-	}
-	80% {
-		-webkit-transform: scale(0.8);
-		opacity: 0.8;	
-	}	
-    100% {
-		-webkit-transform: scale(1);
-		opacity: 1;	
-	}	
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
 }
 /*
 ==============================================
