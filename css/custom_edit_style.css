@@ -1438,7 +1438,7 @@ a.stream-live:hover {
 }
 
 .content-home {
-    height: 91.5%;
+    height: 90.5%;
 }
 
 .modal-backdrop {
@@ -1460,7 +1460,7 @@ a.stream-live:hover {
     margin-bottom: 10px;
 }
 
-a .down-ind-character {
+.down-ind-character {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1470,13 +1470,13 @@ a .down-ind-character {
     display: block;
 }
 
-a .down-ind-character:hover {
+.down-ind-character:hover {
     text-shadow: 0 0 5px white;
     color: white;
     texr-decoration: none;
 }
 
-a .down-ind-character:focus {
+.down-ind-character:focus {
     text-shadow: 0 0 0px white;
     color: white;
 }
