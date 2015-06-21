@@ -1459,6 +1459,7 @@ a.stream-live:hover {
     font-size: 35pt;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    position: fixed;
 }
 
 .down-ind-character {
