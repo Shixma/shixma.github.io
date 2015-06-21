@@ -28,7 +28,7 @@ fadeIn-page
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
 
-	visibility: visible !important;	
+	visibility: visible;	
     
     background-color: #2e2e2e;
     width: 100%;
@@ -43,6 +43,7 @@ fadeIn-page
 	}
 	100% {	
         opacity: 0;
+        visibility: hidden;
 	}	
 }
 
@@ -52,6 +53,7 @@ fadeIn-page
 	}
 	100% {
         opacity: 0;
+        visibility: hidden;
 	}		
 }
 
