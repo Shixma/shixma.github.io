@@ -14,6 +14,47 @@ justin@justinaguilar.com
 
 /*
 ==============================================
+goDown
+==============================================
+*/
+
+.goDown{
+	animation-name: goDown;
+	-webkit-animation-name: goDown;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes goDown {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(13%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes goDown {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(13%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+/*
+==============================================
 fadeIn-page
 ==============================================
 */
