@@ -1440,14 +1440,17 @@ a.stream-live:hover {
 .content-home {
     height: 100%;
 }
-
+/* Modal Changes */
 .modal-backdrop {
-    /*z-index: 999999999999999999999999999999;*/
+    z-index: 999999999999999999999999999999;
 }
 
-.modal-dialog{
-    /*z-index: 9999999999999999999999999999999999;*/
-    margin-top: 10%;
+.modal-dialog   {
+    z-index: 9999999999999999999999999999999999;
+    /*margin-top: 10%;*/
+}
+.modal  {
+    z-index: 99999999999999999999999999999999;
 }
 
 .scrolldown-ind {
