@@ -1510,9 +1510,11 @@ a.stream-live:hover {
     display: inline-block;
     padding: 30px;
 }
-.thing2 > p {
+.thing2-inner {
     padding: 50px;
     color: white;
+    left: 0;
     right:0;
+    margin-left: auto;
     margin-right: 30%;
 }
