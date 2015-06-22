@@ -1565,8 +1565,6 @@ a.cstm-context-box:focus {
 
 .cstm-context-box > .cover{
     text-align: center;
-    color: red;
-    font-size: 80pt;
     z-index: 999;
     background-color: #262626;
 }
