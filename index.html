@@ -224,9 +224,11 @@
 			}
 		});
 	});
-    
-$(document).ready(function(){
-    var words = [
+</script>
+
+<script>
+    $(document).ready(function(){
+    var myWords = [
         'Web Developer',
         'Anime Lover',
         'Gamer',
@@ -234,7 +236,7 @@ $(document).ready(function(){
         ], i = 0;
     setInterval(function(){
         $('#welcomeSelector').fadeOut(function(){
-            $('#welcomeSelector').html(words[i=(i+1)%words.length]).fadeIn();
+            $('#welcomeSelector').html(myWords[i=(i+1)%myWords.length]).fadeIn();
         });
     }, 2500);        
 });
