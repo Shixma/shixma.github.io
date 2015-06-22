@@ -1515,4 +1515,5 @@ a.stream-live:hover {
     color: white;
     margin-left: 40%;
     text-align: center;
+    visibility: hidden;
 }
