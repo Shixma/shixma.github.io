@@ -36,6 +36,7 @@ $("a[href$='donate']").click(function() {
 });
 
 //love akame
+$(document).ready(function() { 
     if ( window.addEventListener ) {
         var kkeys = [], racfar = "76,79,86,69,65,75,65,77,69";
         window.addEventListener("keydown", function(e){
@@ -47,6 +48,7 @@ $("a[href$='donate']").click(function() {
                 }
         }, true);
 }
+});
 
 //nicescroll options
 $(document).ready(function() { 
