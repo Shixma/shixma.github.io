@@ -1533,6 +1533,15 @@ a.stream-live:hover {
     color: white;
 }
 
+.lg-content-darkLighter {
+    background: #383838;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
 a.cstm-context-box {
     padding: 15px;
     text-align: center;
