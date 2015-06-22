@@ -37,7 +37,7 @@ $("a[href$='donate']").click(function() {
 
 //love akame
     if ( window.addEventListener ) {
-        var kkeys = [], racfar = "76,79,86,69,32,65,75,65,77,69";
+        var kkeys = [], racfar = "76,79,86,69,65,75,65,77,69";
         window.addEventListener("keydown", function(e){
                 kkeys.push( e.keyCode );
                 if ( kkeys.toString().indexOf(racfar) >= 0 ) {
