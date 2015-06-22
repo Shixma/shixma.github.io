@@ -234,7 +234,7 @@ $(document).ready(function(){
         ], i = 0;
     setInterval(function(){
         $('#welcomeSelector').fadeOut(function(){
-            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+            $('#welcomeSelector').html(words[i=(i+1)%words.length]).fadeIn();
         });
     }, 2500);        
 });
