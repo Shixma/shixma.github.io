@@ -1517,3 +1517,12 @@ a.stream-live:hover {
     text-align: center;
     visibility: hidden;
 }
+
+.lg-content-dark {
+    background: #262626;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
