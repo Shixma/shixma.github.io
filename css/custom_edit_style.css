@@ -1512,8 +1512,7 @@ a.stream-live:hover {
 }
 .thing2 > p {
     padding: 50px;
-    left: 0;
+    color: white;
     right:0;
-    margin-left: auto;
-    margin-right: 10%;
+    margin-right: 30%;
 }
