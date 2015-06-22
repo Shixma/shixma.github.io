@@ -1554,13 +1554,13 @@ a.cstm-context-box:focus {
     z-index: 2;
     visibility: hidden;
 }
-.cstm-context-box:nth-child(1) > h2 {
+.cstm-context-box:nth-child(2) > h2 {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.cstm-context-box:nth-child(3) > h2 {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
-}
-.cstm-context-box:nth-child(2) > h2 {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
 }
 .cstm-context-box:hover > h2 {
     text-align: center;
