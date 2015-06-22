@@ -1597,7 +1597,3 @@ a.cstm-context-box:focus {
 .bring-forward {
     z-index: 1;
 }
-
-#welcomeSelector {
-    display: block;
-}
