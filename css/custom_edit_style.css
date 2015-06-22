@@ -1477,6 +1477,10 @@ a.stream-live:hover {
     bottom: 0;
     font-size: 30pt;
     display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .down-ind-character:hover {
@@ -1533,10 +1537,6 @@ a.cstm-context-box {
     padding: 15px;
     text-align: center;
     color: white;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    transition: 0.3s;
 }
 a.cstm-context-box:hover {
     text-align: center;
@@ -1558,35 +1558,6 @@ a.cstm-context-box:focus {
     z-index: 2;
     visibility: hidden;
 }
-/* Animation delays */
-.anime-delay-02 {
-    -webkit-animation-delay: .2s;
-    animation-delay: .2s;
-}
-.anime-delay-03 {
-    -webkit-animation-delay: .3s;
-    animation-delay: .3s;
-}
-.anime-delay-04 {
-    -webkit-animation-delay: .4s;
-    animation-delay: .4s;
-}
-.anime-delay-05 {
-    -webkit-animation-delay: .5s;
-    animation-delay: .5s;
-}
-.anime-delay-06 {
-    -webkit-animation-delay: .6s;
-    animation-delay: .6s;
-}
-.anime-delay-07 {
-    -webkit-animation-delay: .7s;
-    animation-delay: .7s;
-}
-.anime-delay-1 {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
 .cstm-context-box:hover > h2 {
     text-align: center;
     color: white;
@@ -1601,6 +1572,10 @@ a.cstm-context-box:focus {
     z-index: 999;
     background: #262626;
     position: relative;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
 }
 .cstm-context-box:hover  .cover {
     text-align: center;
