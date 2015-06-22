@@ -1490,7 +1490,9 @@ a.stream-live:hover {
     color: #1f1f1f;
 }
 
-
+/*===================================
+        main content style
+===================================*/
 .thing {
     width: 40%;
     background: #262626;
@@ -1549,6 +1551,8 @@ a.cstm-context-box:focus {
     text-align: center;
     color: red;
     font-size: 80pt;
+    z-index: 1;
+    visibility: hidden;
 }
 .cstm-context-box:hover > h2 {
     text-align: center;
@@ -1556,5 +1560,23 @@ a.cstm-context-box:focus {
 }
 .cstm-context-box:focus > h2 {
     text-align: center;
+    color: white;
+}
+
+.cstm-context-box > p hr {
+    text-align: center;
+    color: red;
+    font-size: 80pt;
+    z-index: 2;
+    background-color: #262626;
+}
+.cstm-context-box:hover > p hr {
+    text-align: center;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+}
+.cstm-context-box:focus > p hr {
+    text-align: center;
+    background-color: #262626;
     color: white;
 }
