@@ -60,9 +60,31 @@
 <div id="home" class="content-home">
     <div id="particles-js" style="position: fixed;" class="fadeInClean">
         <div class="col-centered text-center" id="home">
+            
             <div class="main-welcome"  style="position: fixed;">
                 <img src="http://i.imgur.com/YZsNHbX.jpg" alt="Akame Image" class="img-circle"><br />
+                <!--carousel-->
+        <div id="nameCarousel" class="carousel slide">
+        
+            <div class="carousel-inner">
+            
+            <div class="item active">
                 <h1>Ryan Hughes</h1>
+            </div>
+            <div class="item">
+                <h1>Front End Designer</h1>
+            </div> 
+            <div class="item">
+                <h1>Anime Lover</h1>
+            </div> 
+            <div class="item">
+                <h1>Gamer</h1>
+            </div> 
+        </div>
+    </div>          
+</div>
+    
+    <!--Carousel end-->
             </div>
         </div>
     </div>
@@ -224,6 +246,10 @@
 			}
 		});
 	});
+    
+$('#nameCarousel').carousel({
+   interval: 25000
+  });
 </script>
 
 <script>
