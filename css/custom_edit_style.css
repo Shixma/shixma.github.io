@@ -1527,17 +1527,17 @@ a.stream-live:hover {
     color: white;
 }
 
-a .cstm-context-box {
+a.cstm-context-box {
     padding: 15px;
     text-align: center;
     color: white;
 }
-a .cstm-context-box:hover {
+a.cstm-context-box:hover {
     text-align: center;
     color: white;
     background-color: rgba(217,98,98,0.2)
 }
-a .cstm-context-box:focus {
+a.cstm-context-box:focus {
     text-align: center;
     color: white;
     background-color: rgba(0,0,0,0.0)
