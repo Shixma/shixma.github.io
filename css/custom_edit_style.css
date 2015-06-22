@@ -1567,6 +1567,7 @@ a.cstm-context-box:focus {
     text-align: center;
     z-index: 999;
     background: #262626;
+    position: absolute;
 }
 .cstm-context-box:hover  .cover {
     text-align: center;
