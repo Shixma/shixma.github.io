@@ -1505,10 +1505,9 @@ a.stream-live:hover {
 .thing2 {
     width: 100%;
     background: #424242;
-    height: 240px;
+    height: 300px;
     position: absolute;
     display: inline-block;
-    display: flex;
     padding: 30px;
 }
 .thing2 > p {
