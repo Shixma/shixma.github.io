@@ -1535,17 +1535,20 @@ a.cstm-context-box {
 a.cstm-context-box:hover {
     text-align: center;
     color: white;
-    background-color: rgba(217,98,98,0.2)
+    background-color: rgba(186,50,50,0.2);
+    text-decoration: none;
 }
 a.cstm-context-box:focus {
     text-align: center;
     color: white;
-    background-color: rgba(0,0,0,0.0)
+    background-color: rgba(0,0,0,0.0);
+    text-decoration: none;
 }
 
 .cstm-context-box > h2 {
     text-align: center;
     color: red;
+    font-size: 80pt;
 }
 .cstm-context-box:hover > h2 {
     text-align: center;
