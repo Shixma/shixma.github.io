@@ -311,6 +311,43 @@ slideLeft
 		-webkit-transform: translateX(0%);
 	}
 }
+/*
+==============================================
+slideRightClean
+==============================================
+*/
+
+
+.slideRightClean{
+	animation-name: slideRightClean;
+	-webkit-animation-name: slideRightClean;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideRightClean {
+	0% {
+		transform: translateX(-150%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}	
+}
+
+@-webkit-keyframes slideRightClean {
+	0% {
+		-webkit-transform: translateX(-150%);
+	}		
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
 
 /*
 ==============================================
