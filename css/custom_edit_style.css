@@ -1489,3 +1489,32 @@ a.stream-live:hover {
     text-shadow: 0 0 0px #1f1f1f;
     color: #1f1f1f;
 }
+
+
+.thing {
+    width: 40%;
+    background: #262626;
+    height: 300px;
+    transform: skewX(-15deg);
+    margin-left: -40px;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+}
+
+.thing2 {
+    width: 100%;
+    background: #424242;
+    height: 240px;
+    position: absolute;
+    display: inline-block;
+    display: flex;
+    padding: 30px;
+}
+.thing2 > p {
+    padding: 50px;
+    left: 0;
+    right:0;
+    margin-left: auto;
+    margin-right: 30%;
+}
