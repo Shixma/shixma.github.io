@@ -196,13 +196,13 @@ top:5%;
 
 
 ::selection {
-	background: #ba3232;
-    color: #303030;
+	background: #c24b4b;
+    color: white;
     border-radius: 3px;
 	}
 ::-moz-selection {
-    background: #ba3232;
-    color: #303030;
+    background: #c24b4b;
+    color: white;
     border-radius: 3px;
 }
 
