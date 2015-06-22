@@ -1554,15 +1554,32 @@ a.cstm-context-box:focus {
     z-index: 2;
     visibility: hidden;
 }
-.row >.cstm-context-box > h2:nth-child(1) {
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
+/* Animation delays */
+.anime-delay-02 {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
 }
-.row > .cstm-context-box > h2:nth-child(2) {
+.anime-delay-03 {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+.anime-delay-04 {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+.anime-delay-05 {
     -webkit-animation-delay: .5s;
     animation-delay: .5s;
 }
-.row > .cstm-context-box > h2:nth-child(3) {
+.anime-delay-06 {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+.anime-delay-07 {
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+.anime-delay-1 {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
