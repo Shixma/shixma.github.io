@@ -224,19 +224,20 @@
 			}
 		});
 	});
-    (function(){
+    
+$(document).ready(function(){
     var words = [
-        'Front End Designer',
+        'Web Developer',
         'Anime Lover',
         'Gamer',
-        'Ryan Hughes' //Same as first one
+        'Ryan Hughes'
         ], i = 0;
     setInterval(function(){
         $('#welcomeSelector').fadeOut(function(){
             $(this).html(words[i=(i+1)%words.length]).fadeIn();
         });
     }, 2500);        
-})();
+});
 </script>
 
 <script>
