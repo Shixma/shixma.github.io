@@ -62,25 +62,7 @@
         <div class="col-centered text-center" id="home">
             <div class="main-welcome"  style="position: fixed;">
                 <img src="http://i.imgur.com/YZsNHbX.jpg" alt="Akame Image" class="img-circle"><br />
-<!--carousel-->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-        <h1>Ryan Hughes</h1>
-    </div>
-    <div class="item">
-        <h1>Front End Designer</h1>
-    </div>
-    <div class="item">
-        <h1>Anime Lover</h1>
-    </div>
-    <div class="item">
-        <h1>Gamer</h1>
-    </div>
-
-  </div>
-</div>
-    <!--Carousel end-->  
+                <h1 id="welcomeSelector">Ryan Hughes</h1>
             </div>
         </div>
     </div>
@@ -242,10 +224,19 @@
 			}
 		});
 	});
-    
-$('.carousel').carousel({
-   interval: 2500
-  });
+    (function(){
+    var words = [
+        'Front End Designer',
+        'Anime Lover',
+        'Gamer',
+        'Ryan Hughes' //Same as first one
+        ], i = 0;
+    setInterval(function(){
+        $('#welcomeSelector').fadeOut(function(){
+            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+        });
+    }, 2500);        
+})();
 </script>
 
 <script>
