@@ -1551,7 +1551,7 @@ a.cstm-context-box:focus {
     text-align: center;
     color: red;
     font-size: 80pt;
-    z-index: 0;
+    z-index: 2;
     visibility: hidden;
 }
 .cstm-context-box:hover > h2 {
