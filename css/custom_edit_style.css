@@ -1593,3 +1593,7 @@ a.cstm-context-box:focus {
     background-color: #262626;
     color: white;
 }
+
+#welcomeSelector {
+    z-index: 1;
+}
