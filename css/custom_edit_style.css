@@ -1594,6 +1594,6 @@ a.cstm-context-box:focus {
     color: white;
 }
 
-h1.bring-forward {
+.bring-forward {
     z-index: 1;
 }
