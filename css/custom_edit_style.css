@@ -1554,6 +1554,14 @@ a.cstm-context-box:focus {
     z-index: 2;
     visibility: hidden;
 }
+.cstm-context-box > h2:nth-child(1) {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+.cstm-context-box > h2:nth-child(2) {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
 .cstm-context-box:hover > h2 {
     text-align: center;
     color: white;
