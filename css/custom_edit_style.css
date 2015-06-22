@@ -1563,17 +1563,17 @@ a.cstm-context-box:focus {
     color: white;
 }
 
-.cstm-context-box > .cover{
+.cstm-context-box  .cover{
     text-align: center;
     z-index: 999;
-    background-color: #262626;
+    background: #262626;
 }
-.cstm-context-box:hover > .cover {
+.cstm-context-box:hover  .cover {
     text-align: center;
     background-color: rgba(0,0,0,0.0);
     color: white;
 }
-.cstm-context-box:focus > .cover {
+.cstm-context-box:focus  .cover {
     text-align: center;
     background-color: #262626;
     color: white;
