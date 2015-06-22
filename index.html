@@ -61,30 +61,30 @@
     <div id="particles-js" style="position: fixed;" class="fadeInClean">
         <div class="col-centered text-center" id="home">
             
-            <div class="main-welcome"  style="position: fixed;">
-                <img src="http://i.imgur.com/YZsNHbX.jpg" alt="Akame Image" class="img-circle"><br />
-                <!--carousel-->
-        <div id="nameCarousel" class="carousel slide">
-        
-            <div class="carousel-inner">
-            
-            <div class="item active">
-                <h1>Ryan Hughes</h1>
-            </div>
-            <div class="item">
-                <h1>Front End Designer</h1>
-            </div> 
-            <div class="item">
-                <h1>Anime Lover</h1>
-            </div> 
-            <div class="item">
-                <h1>Gamer</h1>
-            </div> 
-        </div>
-    </div>          
+<!--carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <h1>Ryan Hughes</h1>
+    </div>
+    <div class="item">
+        <h1>Front End Designer</h1>
+    </div>
+    <div class="item">
+        <h1>Anime Lover</h1>
+    </div>
+    <div class="item">
+        <h1>Gamer</h1>
+    </div>
+
+  </div>
 </div>
-    
-    <!--Carousel end-->
+    <!--Carousel end-->  
             </div>
         </div>
     </div>
@@ -247,7 +247,7 @@
 		});
 	});
     
-$('#nameCarousel').carousel({
+$('.carousel').carousel({
    interval: 2500
   });
 </script>
