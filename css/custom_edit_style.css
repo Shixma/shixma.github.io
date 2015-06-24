@@ -1457,8 +1457,8 @@ a.stream-live:hover {
     width: 300px;
     left: 50%;
     margin-left: -150px; /* Half of the width */
-    top: 50%;
-    transform: translateY(-50%);
+    top: 30%;
+    transform: translateY(-30%);
 }
 
 ::-webkit-scrollbar-thumb {
