@@ -1630,5 +1630,6 @@ a.cstm-context-box:focus {
 .parallax-window {
     min-height: 400px;
     background: transparent;
-    z-index: 999;
+    z-index: 9999;
+    position: absolute;
 }
