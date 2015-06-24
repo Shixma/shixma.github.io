@@ -1460,6 +1460,9 @@ a.stream-live:hover {
     top: 35%;
     transform: translateY(-35%);
 }
+.main-welcome h1 {
+    color: #1f1f1f;
+}
 
 ::-webkit-scrollbar-thumb {
     z-index: 99999999999999999999;
