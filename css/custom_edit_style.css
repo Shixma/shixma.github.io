@@ -1632,30 +1632,12 @@ a.cstm-context-box:focus {
     z-index: 9999;
 }
 
-.skewX30 {
-    -webkit-transform:skew(-20deg);
-    -moz-transform:skew(-20deg);
-    -o-transform:skew(-20deg);
-    -ms-transform:skew(20deg);
-    transform:skew(-20deg);
-    margin-left: -50px;
-    left: -43px;
-    overflow:hidden;
-    position:relative;
-}
 .lg-content-redspace {
     background: url('http://i.imgur.com/r5ZuuBn.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
-    -webkit-transform:skew(20deg);
-    -moz-transform:skew(20deg);
-    -o-transform:skew(20deg);
-    -ms-transform:skew(20deg);
-    transform:skew(20deg);
-    margin-left:-50px; 
-    width: 115%;
 }
 
 .lg-content-redspace a {
@@ -1664,11 +1646,6 @@ a.cstm-context-box:focus {
     -o-transform:skew(-20deg);
     -ms-transform:skew(-20deg);
     transform:skew(-20deg);
-    left: 0;
-    right 0;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
 }
 
 .unskewX30 {
