@@ -1626,3 +1626,9 @@ a.cstm-context-box:focus {
 .bring-forward {
     z-index: 1;
 }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    z-index: 999;
+}
