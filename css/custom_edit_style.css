@@ -1639,4 +1639,18 @@ a.cstm-context-box:focus {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-left: -50px;
+    -webkit-transform:skewX(20deg);
+    -moz-transform:skewX(20deg);
+    -o-transform:skewX(20deg);
+    -ms-transform:skewX(20deg);
+    transform:skewX(20deg);
+}
+
+.lg-content-redspace > a {
+    -webkit-transform:skewX(-20deg);
+    -moz-transform:skewX(-20deg);
+    -o-transform:skewX(-20deg);
+    -ms-transform:skewX(-20deg);
+    transform:skewX(-20deg);
 }
