@@ -1662,7 +1662,7 @@ a.cstm-context-box:focus {
     transform:skewX(-30deg);
 }
 
-.lg-content-redspace a span {
+.lg-content-redspace a > span {
     -webkit-transform:skewX(30deg);
     -moz-transform:skewX(30deg);
     -o-transform:skewX(30deg);
