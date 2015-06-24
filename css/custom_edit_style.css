@@ -1205,7 +1205,6 @@ html, body{
 
 .content {
     position: absolute;
-    background: white;
     height: 1000px;
     width: 100%;
     z-index: 99999;
@@ -1669,6 +1668,7 @@ a.cstm-context-box:focus {
     right 0;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
 }
 
 .unskewX30 {
