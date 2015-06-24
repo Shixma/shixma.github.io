@@ -1634,12 +1634,12 @@ a.cstm-context-box:focus {
 }
 
 .skewX30 {
-    -webkit-transform:skewX(-20deg);
-    -moz-transform:skewX(-20deg);
-    -o-transform:skewX(-20deg);
-    -ms-transform:skewX(20deg);
-    transform:skewX(-20deg);
-    margin-left: -200px;
+    -webkit-transform:skew(-20deg);
+    -moz-transform:skew(-20deg);
+    -o-transform:skew(-20deg);
+    -ms-transform:skew(20deg);
+    transform:skew(-20deg);
+    margin-left: -300px;
     overflow:hidden;
     position:relative;
 }
@@ -1649,25 +1649,25 @@ a.cstm-context-box:focus {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
-    -webkit-transform:skewX(20deg);
-    -moz-transform:skewX(20deg);
-    -o-transform:skewX(20deg);
-    -ms-transform:skewX(20deg);
-    transform:skewX(20deg);
+    -webkit-transform:skew(20deg);
+    -moz-transform:skew(20deg);
+    -o-transform:skew(20deg);
+    -ms-transform:skew(20deg);
+    transform:skew(20deg);
 }
 
 .lg-content-redspace a {
-    -webkit-transform:skewX(-20deg);
-    -moz-transform:skewX(-20deg);
-    -o-transform:skewX(-20deg);
-    -ms-transform:skewX(-20deg);
-    transform:skewX(-20deg);
+    -webkit-transform:skew(-20deg);
+    -moz-transform:skew(-20deg);
+    -o-transform:skew(-20deg);
+    -ms-transform:skew(-20deg);
+    transform:skew(-20deg);
 }
 
-span.unskewX30 {
-    -webkit-transform:skewX(20deg);
-    -moz-transform:skewX(20deg);
-    -o-transform:skewX(20deg);
-    -ms-transform:skewX(20deg);
-    transform:skewX(20deg);
+.unskewX30 {
+    -webkit-transform:skew(20deg);
+    -moz-transform:skew(20deg);
+    -o-transform:skew(20deg);
+    -ms-transform:skew(20deg);
+    transform:skew(20deg);
 }
