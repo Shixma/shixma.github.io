@@ -1205,7 +1205,7 @@ html, body{
 
 .content {
     position: absolute;
-    height: 1000px;
+    background: none;
     width: 100%;
     z-index: 99999;
 }
