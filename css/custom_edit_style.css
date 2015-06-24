@@ -1640,17 +1640,17 @@ a.cstm-context-box:focus {
     padding-top: 100px;
     padding-bottom: 100px;
     margin-left: -50px;
-    -webkit-transform:skewX(20deg);
-    -moz-transform:skewX(20deg);
-    -o-transform:skewX(20deg);
-    -ms-transform:skewX(20deg);
-    transform:skewX(20deg);
+    -webkit-transform:skewX(-50deg);
+    -moz-transform:skewX(-50deg);
+    -o-transform:skewX(-50deg);
+    -ms-transform:skewX(-50deg);
+    transform:skewX(-50deg);
 }
 
-.lg-content-redspace > a {
-    -webkit-transform:skewX(-20deg);
-    -moz-transform:skewX(-20deg);
-    -o-transform:skewX(-20deg);
-    -ms-transform:skewX(-20deg);
-    transform:skewX(-20deg);
+.lg-content-redspace a {
+    -webkit-transform:skewX(50deg);
+    -moz-transform:skewX(50deg);
+    -o-transform:skewX(50deg);
+    -ms-transform:skewX(50deg);
+    transform:skewX(50deg);
 }
