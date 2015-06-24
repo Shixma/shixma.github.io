@@ -1640,6 +1640,8 @@ a.cstm-context-box:focus {
     -ms-transform:skewX(30deg);
     transform:skewX(-30deg);
     margin-left: -50px;
+    overflow:hidden;
+    position:relative;
 }
 .lg-content-redspace {
     background: url('http://i.imgur.com/r5ZuuBn.jpg');
@@ -1662,7 +1664,7 @@ a.cstm-context-box:focus {
     transform:skewX(-30deg);
 }
 
-.lg-content-redspace a > span {
+.unskewX30 {
     -webkit-transform:skewX(30deg);
     -moz-transform:skewX(30deg);
     -o-transform:skewX(30deg);
