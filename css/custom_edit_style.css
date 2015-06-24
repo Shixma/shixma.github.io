@@ -1639,9 +1639,10 @@ a.cstm-context-box:focus {
     -o-transform:skewX(-30deg);
     -ms-transform:skewX(30deg);
     transform:skewX(-30deg);
-    margin-left: -50px;
+    margin-left: -100px;
     overflow:hidden;
     position:relative;
+    border-right: 2px solid black;
 }
 .lg-content-redspace {
     background: url('http://i.imgur.com/r5ZuuBn.jpg');
