@@ -976,6 +976,36 @@ div.seen {
     outline: none;
 }
 
+.btn-default{
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px white solid;
+    border-radius: 0;
+    color: white;
+    font-weight: 200;
+        -webkit-transition: all 700ms cubic-bezier(0.615, 0, 0.380, 1); /* older webkit */
+-webkit-transition: all 500ms cubic-bezier(0.615, -0.250, 0.380, 1.250); 
+   -moz-transition: all 500ms cubic-bezier(0.615, -0.250, 0.380, 1.250); 
+     -o-transition: all 500ms cubic-bezier(0.615, -0.250, 0.380, 1.250); 
+        transition: all 500ms cubic-bezier(0.615, -0.250, 0.380, 1.250); /* custom */
+    outline: none;
+}
+
+.btn-default:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 3px white solid;
+    border-radius: 0;
+    color: black;
+    outline: none;
+}
+
+.btn-default:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px white solid;
+    border-radius: 0;
+    color: black;
+    outline: none;
+}
+
 .btn-danger {
     background-color: rgba(255, 255, 255, 0);
     border: 3px #fc7e7e solid;
