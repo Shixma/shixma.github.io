@@ -1453,11 +1453,12 @@ a.stream-live:hover {
 
 .main-welcome {
     z-index: 9999999999999;
-    margin-top: 10%;
     position: absolute;
     width: 300px;
     left: 50%;
     margin-left: -150px; /* Half of the width */
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 ::-webkit-scrollbar-thumb {
