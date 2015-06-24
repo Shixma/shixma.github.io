@@ -1638,7 +1638,4 @@ a.cstm-context-box:focus {
     padding-top: 100px;
     padding-bottom: 100px;
     background-repeat: no-repeat;
-    position: fixed;
-    background-position: center center;
-    background-size: cover cover;
 }

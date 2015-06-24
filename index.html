@@ -221,6 +221,13 @@
     }, 2500);        
 });
 </script>
+<script>
+$(window).load(function(){
+    $('.lg-content-redspace').scroll(function(){
+        var x = $(this).scrollTop();
+        $(this).css('background-position','0% '+parseInt(-x/2)+'px');
+});
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
