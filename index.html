@@ -137,6 +137,7 @@
      <h1>PLACEHOLDER</h1>
     </div>
     <div class="lg-content-redspace content-contact" id="contact">
+        <div class="redspace-bg"></div>
             <div style="text-align: center;margin-top: 0px;vertical-align:middle;"><a href="#" class="btn btn-default">CONTACT ME</a></div>
     </div>
         <div class="lg-content-dark content-sub" id="sub">
@@ -223,7 +224,7 @@
 </script>
 <script>
 $(window).load(function(){
-    $('.lg-content-redspace').scroll(function(){
+    $('.redspace-bg').scroll(function(){
         var x = $(this).scrollTop();
         $(this).css('background-position','0% '+parseInt(-x/2)+'px');
 });

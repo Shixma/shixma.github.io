@@ -1634,8 +1634,13 @@ a.cstm-context-box:focus {
 }
 
 .lg-content-redspace {
-    background: url('http://i.imgur.com/r5ZuuBn.jpg');
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.redspace-bg {
+    background: url('http://i.imgur.com/r5ZuuBn.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
 }
