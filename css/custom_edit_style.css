@@ -1631,5 +1631,4 @@ a.cstm-context-box:focus {
     min-height: 400px;
     background: transparent;
     z-index: 9999;
-    position: absolute;
 }
