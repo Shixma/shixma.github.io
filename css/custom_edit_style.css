@@ -1632,3 +1632,13 @@ a.cstm-context-box:focus {
     background: transparent;
     z-index: 9999;
 }
+
+.lg-content-redspace {
+    background: url('img/staticbackground/space/redspace.jpg');#
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
