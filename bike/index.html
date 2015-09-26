@@ -42,9 +42,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><i class="fa fa-motorcycle"></i> Kawasaki Ninja 300 30th Anniversary Performance ABS (with custom parts) <a href="http://www.honda.co.uk/motorcycles/range/super-sport/cbr500r-2013/specifications.html" target="_blank">(alternative)</a></td>
-        <td>£5956.85</td>
-		<th><a target="_blank" href="http://www.kawasaki.co.uk/en/products/sports/2015/ninja_300_30th_anniversary_performance/overview?Uid=0808WQpcCl4OWl4MX15fXA0LWwldUFldW1xeDF1RW19YWF8">Link</a></th>
+        <td><i class="fa fa-motorcycle"></i> Honda CBR500R (with custom parts) <a href="http://www.kawasaki.co.uk/en/products/sports/2015/ninja_300_30th_anniversary_performance/overview?Uid=0808WQpcCl4OWl4MX15fXA0LWwldUFldW1xeDF1RW19YWF8" target="_blank">(alternative)</a></td>
+        <td>£6370</td>
+		<th><a target="_blank" data-container="body" data-toggle="popover" title="Extra parts" data-placement="top" data-content="Rear Seat Cowell, Akrapovic slip-on exhaust, Outdoor cover, Tank pad, fuel cap pad, front mudguard, hugger and high wind shield (this depends on how comfortable I am with the stock)" href="http://www.honda.co.uk/motorcycles/range/super-sport/cbr500r-2013/specifications.html">Link</a></th>
       </tr>
       <tr>
         <td><i class="fa fa-smile-o"></i> Shoei X-Spirit 2 <a href="http://www.sportsbikeshop.co.uk/motorcycle_parts/content_prod/193632" target="_blank">(alternative)</a></td>
@@ -152,7 +152,7 @@
 		<th><a target="_blank" href="http://www.sportsbikeshop.co.uk/motorcycle_parts/content_prod/78343">link</a></th>
       </tr>
     </tbody>
-	<h3>Total: £9264.24
+	<h3>Total: £9677.39
 	<br /><small>Insurance: £154.01 monthly</small></h3>
   </table>
 		</div>
@@ -161,7 +161,12 @@
 	
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="js/bootstrap.js"></script>
-	<script> $('#myCarousel').carousel({ interval: 4300 }) </script>
+	<script> $('#myCarousel').carousel({ interval: 4300 }) 
+	$(function () {
+		$('[data-toggle="popover"]').popover({trigger: hover,
+		})
+	})
+	</script>
 	</body>
 
 </html>
