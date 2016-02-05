@@ -257,7 +257,6 @@ background: url(http://i.imgur.com/9Xw6Qvv.png) no-repeat scroll 50% 1px transpa
 font-size: 81.25%;
 line-height: 1;
 margin: 0 auto;
-padding-bottom: 10px;
 padding-top: 360px; /* 288 */
 width: 920px;
 animation-name:fadein;
@@ -487,7 +486,7 @@ border: 5px solid white;
 color: white;
 line-height: 17px;
 margin-top: 10px;
-margin-bottom: -20px;
+border-bottom: 0;
 border-bottom: 0px !important;
 padding: 8px;
 text-align: center;
