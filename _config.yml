@@ -1,0 +1,6 @@
+gems:
+  - jekyll-redirect-from
+ 
+title: Shixma
+redirect_to:
+  - http://www.shixma.com
